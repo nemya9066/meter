@@ -1,22 +1,39 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>website</title>
-		<link rel='stylesheet' href='style.css'>
-		<script defer src="script.js"></script>
-	</head>
-	<body>
-		<main>	
-			<label>Final Variable 1:</label>
-			<input type="text">
-			<label>Variable 2:</label>
-			<input type="text">
-			<label>Variable 3:</label>
-			<input type="text">
-			<label>Variable 4:</label>
-			<input type="text">
-			<button class=submit>Submit</button>
-			<button class=clear>Clear</button>
-		</main>
-	</body>
+<head>
+	<title>Steam Scraping site</title>
+<style>
+	body, div, img, a{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+	div.container{
+		padding: 30px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		justify-content: center;
+		align-items: center;
+		gap: 25px;
+		background: #3c6382;
+		border: 2px solid black;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<a href="01.html"><img src="img/01.jpg"></a>
+		<a href="02.html"><img src="img/02.jpg"></a>
+		<a href="03.html"><img src="img/03.jpg"></a>
+		<a href="04.html"><img src="img/04.jpg"></a>
+		<a href="05.html"><img src="img/05.jpg"></a>
+		<a href="06.html"><img src="img/06.jpg"></a>
+	</div>
+</body>
 </html>
